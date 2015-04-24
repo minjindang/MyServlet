@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MyServlet</title>
+</head>
+<body>
+	<h1>啤酒選擇畫面</h1>	
+	<form action="SelectBeer.do"  method="POST" >
+		選出想喝的啤酒<p>
+		顏色：
+		<select name="color"  size="1">
+			<option>light
+			<option>amber
+			<option>brown
+			<option>dark
+		</select>
+		<br><br>
+		<input type="SUBMIT">
+	</form>
+	<form method= "POST"  action= "SelectBeer.do">
+		Select beer characteristics<p>
+		Can Sizes: <p>
+		<input type=checkbox name=sizes value="12oz"> 12 oz.<br>
+		<input type=checkbox name=sizes value="16oz"> 16 oz.<br>
+		<input type=checkbox name=sizes value="22oz"> 22 oz.<br>
+		<br><br>
+		
+		<input type ="SUBMIT">
+	</form>
+</body>
+</html>
